@@ -29,8 +29,9 @@ body {
 
 header {
     height: 90.11px;
-    background-color: var(--bg1-color)
-
+    background-color: var(--bg1-color);
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -68,28 +69,34 @@ header {
 .facebookImg {
     width: 25px;
     height: 25px;
-    margin-top: 33px; 
-    margin-left: 350px;
+    /* margin-top: 33px; 
+    margin-left: 350px; */
 }
 
 .instagramImg {
     width: 25px;
     height: 25px;
-    margin-top: 33px; 
-    margin-left: 50px;
+    /* margin-top: 33px; 
+    margin-left: 50px; */
 }
 
 .twitterImg {
     width: 30x;
     height: 32.5px;
-    margin-top: 23.7px;
-    margin-left: 50px;
+    /* margin-top: 23.7px;
+    margin-left: 50px; */
 }
 
 
 .sectors {
     display: flex;
     flex-direction: column;
+    gap: 60px;
+}
+
+.menu-socials {
+    display: flex;
+    flex-direction: row;
     gap: 60px;
 }
 
