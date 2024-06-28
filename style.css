@@ -31,12 +31,12 @@ header {
     height: 90.11px;
     background-color: var(--bg1-color);
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
 .logo {
-    top: 15px;
+    /* top: 15px; */
     height: 86px;
     /* margin-left: 90px; */
 }
@@ -99,6 +99,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 60px;
+    align-items: center;
 }
 
 
