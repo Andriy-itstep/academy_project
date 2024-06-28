@@ -206,9 +206,9 @@ body {
     height: 900px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 150px;
     padding: 0 90px;
-    display: flex;
     background: #F5F5F5;
 
 }
@@ -285,7 +285,7 @@ body {
     height: 900px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: #F5F5F5;
 
     
