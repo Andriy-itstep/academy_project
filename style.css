@@ -25,7 +25,7 @@ body {
     display: flex;
 }
 
-/*-----------------------------------------------------HEADER-----------------------------------------------------*/
+/* ========================================================= HEADER ========================================================= */
 
 header {
     height: 90.11px;
@@ -52,8 +52,6 @@ header {
 .menu {
     gap: 70px;
     list-style: none;
-    /* margin-top: 30px; */
-    /* margin-left: 250px; */
     font-family: Inter;
     font-size: 16px;
     font-weight: 700;
@@ -407,7 +405,7 @@ footer h2 {
 footer .footer-content {
     display: flex;
     justify-content: center;
-    gap: 200px; /* Відстань між блоками */
+    gap: 200px;
 }
 footer .footer-content .footer-item {
     display: flex;
